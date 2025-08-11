@@ -1,5 +1,8 @@
 # 3.5-esp-32-display
 
+## Board:
+[Aliexpress link](https://www.aliexpress.us/item/3256808473949829.html?spm=a2g0o.order_list.order_list_main.17.622d1802tacMVU&gatewayAdapt=glo2usa)
+
 ## User_sertup.h:
 - Use these settings in the `tft_espi` library:
 ```
