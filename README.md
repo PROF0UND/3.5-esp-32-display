@@ -1,10 +1,17 @@
 # 3.5-esp-32-display
 
 ## Board:
-[Aliexpress link](https://www.aliexpress.us/item/3256808473949829.html?spm=a2g0o.order_list.order_list_main.17.622d1802tacMVU&gatewayAdapt=glo2usa)
+- [Aliexpress link](https://www.aliexpress.us/item/3256808473949829.html?spm=a2g0o.order_list.order_list_main.17.622d1802tacMVU&gatewayAdapt=glo2usa)
 
-## User_sertup.h:
-- Use these settings in the `tft_espi` library:
+## Setup:
+### Library installation:
+- On Arduino IDE, install the `TFT_eSPI" library.
+### Driver Used:
+- The Board uses the "ILI9488 Driver".
+- You need to edit the `User_Setup.h` to configure the library to this board.
+- Do this by either uncommenting the following lines or just copy pasting this text on the file.
+### User_sertup.h:
+- Use these settings in the `User_Setup.h` file of the `TFT_eSPI` library:
 ```
 #define ILI9488_DRIVER
 
