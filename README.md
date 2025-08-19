@@ -1,7 +1,13 @@
 # 3.5-esp-32-display
 
+Documentation for the 3.5 inch ESP 32 display with the SD card.
+
 ## Board:
 - [Aliexpress link](https://www.aliexpress.us/item/3256808473949829.html?spm=a2g0o.order_list.order_list_main.17.622d1802tacMVU&gatewayAdapt=glo2usa)
+
+ 
+  <img width="354" height="387" alt="image" src="https://github.com/user-attachments/assets/b9523601-6f25-4fe3-811b-ed98b42f3350" />
+
 
 ## Setup:
 ### Library installation:
